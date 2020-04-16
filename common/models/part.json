@@ -1,0 +1,40 @@
+{
+  "name": "part",
+  "plural": "part",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "code": {
+      "type": "string"
+    },
+    "production_date": {
+      "type": "date"
+    },
+    "destination": {
+      "type": "string"
+    },
+    "quantity": {
+      "type": "number"
+    },
+    "description": {
+      "type": "string"
+    },
+    "status": {
+      "type": "string"
+    },
+    "position": {
+      "type": "string"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}
