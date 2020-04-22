@@ -38,5 +38,9 @@
   "part": {
     "dataSource": "db",
     "public": true
+  },
+  "report": {
+    "dataSource": "db",
+    "public": true
   }
 }
